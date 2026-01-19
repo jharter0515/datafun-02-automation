@@ -1,0 +1,50 @@
+2026-01-18 22:39:32 | INFO | P02 | === RUN START ===
+2026-01-18 22:39:32 | INFO | P02 | project=Automation: Creating Files with Repetition Patterns
+2026-01-18 22:39:32 | INFO | P02 | repo_dir=datafun-02-automation
+2026-01-18 22:39:32 | INFO | P02 | python=3.14.2
+2026-01-18 22:39:32 | INFO | P02 | os=Windows 11
+2026-01-18 22:39:32 | INFO | P02 | shell=powershell
+2026-01-18 22:39:32 | INFO | P02 | cwd=.
+2026-01-18 22:39:32 | INFO | P02 | github_actions=False
+2026-01-18 22:39:32 | INFO | P02 | START main()
+2026-01-18 22:39:32 | INFO | P02 | START FUNCTION 1: create_files_from_numeric_range()
+2026-01-18 22:39:32 | INFO | P02 | Starting year: 2023
+2026-01-18 22:39:32 | INFO | P02 | Ending year: 2026
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_year_2023.txt
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_year_2024.txt
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_year_2025.txt
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_year_2026.txt
+2026-01-18 22:39:32 | INFO | P02 | START FUNCTION 2: create_files_from_list()
+2026-01-18 22:39:32 | INFO | P02 | Regions list: ['North America', 'South America', 'Europe', 'Asia', 'Africa', 'Oceania', 'Middle East']
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_region_north_america.txt
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_region_south_america.txt
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_region_europe.txt
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_region_asia.txt
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_region_africa.txt
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_region_oceania.txt
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_region_middle_east.txt
+2026-01-18 22:39:32 | INFO | P02 | START FUNCTION 3: create_files_using_list_comprehension()
+2026-01-18 22:39:32 | INFO | P02 | WHY: Transform a list into a new list using list comprehension.
+2026-01-18 22:39:32 | INFO | P02 | Region tags: ['tag_north_america', 'tag_south_america', 'tag_europe', 'tag_asia', 'tag_africa', 'tag_oceania', 'tag_middle_east']
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_tag_north_america.txt
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_tag_south_america.txt
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_tag_europe.txt
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_tag_asia.txt
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_tag_africa.txt
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_tag_oceania.txt
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_tag_middle_east.txt
+2026-01-18 22:39:32 | INFO | P02 | START FUNCTION 4: create_files_periodically()
+2026-01-18 22:39:32 | INFO | P02 | WHY: Use while loop for repetitive tasks with a delay.
+2026-01-18 22:39:32 | INFO | P02 | Waiting seconds between files: 1
+2026-01-18 22:39:32 | INFO | P02 | Number of files to create: 5
+2026-01-18 22:39:32 | INFO | P02 | WROTE file: jimmy_harter_periodic_01.txt
+2026-01-18 22:39:32 | INFO | P02 | Waiting 1 seconds...
+2026-01-18 22:39:33 | INFO | P02 | WROTE file: jimmy_harter_periodic_02.txt
+2026-01-18 22:39:33 | INFO | P02 | Waiting 1 seconds...
+2026-01-18 22:39:34 | INFO | P02 | WROTE file: jimmy_harter_periodic_03.txt
+2026-01-18 22:39:34 | INFO | P02 | Waiting 1 seconds...
+2026-01-18 22:39:35 | INFO | P02 | WROTE file: jimmy_harter_periodic_04.txt
+2026-01-18 22:39:35 | INFO | P02 | Waiting 1 seconds...
+2026-01-18 22:39:36 | INFO | P02 | WROTE file: jimmy_harter_periodic_05.txt
+2026-01-18 22:39:36 | INFO | P02 | Waiting 1 seconds...
+2026-01-18 22:39:37 | INFO | P02 | END main()
